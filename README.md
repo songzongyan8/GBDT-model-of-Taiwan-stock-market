@@ -1,8 +1,10 @@
 股票收益预测模型 - GBDT方法实现
+
 📊 项目概述
 本项目基于GBDT（梯度提升决策树）算法，结合价量数据和财务数据，构建股票收益预测模型。模型目标为预测股票未来20天收益是否超过所有股票平均收益。
 
 📁 项目结构
+
 1calc_features_fund.py:读取价量数据和财务数据，进行预处理后计算特征指标，包含技术指标和财务指标。
 （1）该程序读取data文件夹下taiwan_stock_price_202511122027.csv和reports_202511122033.csv两个表格（需将[https://tripintl.sg.larksuite.com/file/TaHjbTGsRoeRLYxbvvylf5XAgNS](https://tripintl.sg.larksuite.com/file/TaHjbTGsRoeRLYxbvvylf5XAgNS)处压缩包中的两个表格解压到data文件夹下），
 （2）对基本面数据进行整理，
