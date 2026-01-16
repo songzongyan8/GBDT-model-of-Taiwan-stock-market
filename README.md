@@ -142,28 +142,6 @@ weighted avg       0.53      0.53      0.53     79094
    macro avg       0.54      0.54      0.53     44099
 weighted avg       0.56      0.54      0.54     44099
 
-🚀 快速开始
-
-1. 数据准备
-
-下载数据压缩包：数据下载链接
-
-解压到 data/ 文件夹下
-
-2. 运行步骤
-bash
-# 1. 特征计算与数据处理
-python calc_features_fund.py
-
-# 2. 参数优化（可选）
-python 训练回测参数寻优多进程.py
-
-# 3. 模型训练与评估
-python train.py
-3. 结果分析
-bash
-# 整理优化结果
-python 优化结果整理.py
 
 📝 注意事项
 
